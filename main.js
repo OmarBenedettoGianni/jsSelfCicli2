@@ -10,7 +10,4 @@ for (let i = 1; i <= 20; i++) {
         conteggioDispari++;
     }
 }
-if (conteggioDispari > 0) {
-    let mediaDispari = sommaDispari / conteggioDispari;
-    console.log(`La media dei numeri dispari è: ${mediaDispari}`);
-}
+console.log(`La media dei numeri dispari è: ${sommaDispari / conteggioDispari}`);
